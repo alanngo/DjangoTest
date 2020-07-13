@@ -10,9 +10,9 @@ Create a new project
 $ django-admin startproject <PROJECT_NAME>
 `````
 
-###Running
+### Running
 
-####via terminal
+#### via terminal
 ````shell script
 $ cd <PROJECT_NAME>
 $ python3 manage.py runserver
@@ -36,7 +36,7 @@ Quit the server with CONTROL-C.
 ````
 Click on the url and you're done
 
-####via Pycharm
+#### via Pycharm
 - Click on Run > Edit Configurations
 - Change the following
     - <b>Script Path:</b> path to <i>manage.py</i>
