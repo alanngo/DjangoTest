@@ -2,7 +2,7 @@
 
 {% block main_content %}
     <ul>
-    {% if latest_questions%}
+    {% if latest_questions %}
         {% for question in latest_questions %}
         <li><a href={% url "polls:detail" question.id %}><b>{{question.question_text}}</b></a></li>
     {% endfor %}
